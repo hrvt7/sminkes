@@ -64,11 +64,11 @@ export default function Hero() {
               <div className="relative max-w-[320px]">
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/5 to-primary/10 transform rotate-2 scale-[1.02] -z-10" />
                 <div className="rounded-3xl bg-surface-card border border-border shadow-2xl shadow-primary/8 overflow-hidden transform lg:rotate-1 hover:rotate-0 transition-all duration-500">
-                  <div className="aspect-[3/4] overflow-hidden">
+                  <div className="aspect-square overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/images/hero-portrait.webp"
-                      alt="Kovacsik Kamilla sminkes portré"
+                      src="/images/hero-kamilla.webp"
+                      alt="Kovacsik Kamilla sminkes"
                       className="w-full h-full object-cover"
                     />
                   </div>
