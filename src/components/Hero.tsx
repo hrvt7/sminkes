@@ -10,7 +10,7 @@ export default function Hero() {
         {/* Mobile: portrait image */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/hero-bg-mobile.webp"
+          src="/images/hero-bg-mobile-v2.webp"
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover lg:hidden"
@@ -18,7 +18,7 @@ export default function Hero() {
         {/* Desktop: landscape image */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/hero-bg-desktop.webp"
+          src="/images/hero-bg-desktop-v2.webp"
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover hidden lg:block"
